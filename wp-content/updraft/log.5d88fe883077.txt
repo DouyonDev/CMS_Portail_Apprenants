@@ -1,0 +1,103 @@
+0000.001 (0) Opened log file at time: Mon, 29 Apr 2024 15:24:24 +0000 on http://localhost/kalanso
+0000.005 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.2 WP: 6.5.2 PHP: 8.2.12 (apache2handler, Windows NT DCIREODCPR38 10.0 build 22631 (Windows 11) AMD64) MySQL: 10.4.32-MariaDB (max packet size=33554432) WPLANG: fr_FR Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 65.1M | 70M) multisite: N openssl: OpenSSL 3.0.11 19 Sep 2023 mcrypt: N LANG:  ZipArchive::addFile: N
+0000.007 (0) Free space on disk containing Updraft's temporary directory: 208788.8 MB
+0000.012 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: daily)
+0000.015 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.024 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1713944904, seconds_ago=459360)
+0000.030 (0) Semaphore (fd, wp_options) was stuck, set lock time to 2024-04-29 15:24:24
+0000.033 (0) Semaphore (fd, wp_options) reset to 1
+0000.036 (0) Set semaphore last lock (fd) time to 2024-04-29 15:24:24
+0000.039 (0) Semaphore lock (fd) complete
+0000.049 (0) Backup run: resumption=0, nonce=5d88fe883077, file_nonce=5d88fe883077 begun at=1714404264 (0s ago), job type=backup
+0000.054 (0) Scheduling a resumption (1) after 300 seconds (1714404564) in case this run gets aborted
+0000.069 (0) Checking if we have a zip executable available
+0000.075 (0) Zip engine: ZipArchive (a.k.a. php-zip) is not available or is disabled (will use PclZip (much slower) if needed)
+0000.078 (0) Creation of backups of directories: beginning
+0000.087 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.975 (0) Total entities for the zip file: 1292 directories, 5504 files (0 skipped as non-modified), 107 MB
+0000.977 (0) Only one archive required (UpdraftPlus_PclZip) - will attempt to do in single operation (data: 109600.5 KB, split: 409600 KB)
+0000.996 (0) Zip: backup_2024-04-29-1724_localhost_kalanso_5d88fe883077-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0001.009 (0) Zip: backup_2024-04-29-1724_localhost_kalanso_5d88fe883077-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0001.025 (0) Zip: backup_2024-04-29-1724_localhost_kalanso_5d88fe883077-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0001.040 (0) Zip: backup_2024-04-29-1724_localhost_kalanso_5d88fe883077-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0001.059 (0) Zip: backup_2024-04-29-1724_localhost_kalanso_5d88fe883077-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0001.076 (0) Zip: backup_2024-04-29-1724_localhost_kalanso_5d88fe883077-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0001.093 (0) Zip: backup_2024-04-29-1724_localhost_kalanso_5d88fe883077-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0001.108 (0) Zip: backup_2024-04-29-1724_localhost_kalanso_5d88fe883077-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0001.123 (0) Zip: backup_2024-04-29-1724_localhost_kalanso_5d88fe883077-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0001.140 (0) Zip: backup_2024-04-29-1724_localhost_kalanso_5d88fe883077-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0001.157 (0) Zip: backup_2024-04-29-1724_localhost_kalanso_5d88fe883077-plugins.zip.tmp: 1100 files added (on-disk size: 0 KB)
+0001.174 (0) Zip: backup_2024-04-29-1724_localhost_kalanso_5d88fe883077-plugins.zip.tmp: 1200 files added (on-disk size: 0 KB)
+0001.192 (0) Zip: backup_2024-04-29-1724_localhost_kalanso_5d88fe883077-plugins.zip.tmp: 1300 files added (on-disk size: 0 KB)
+0001.211 (0) Zip: backup_2024-04-29-1724_localhost_kalanso_5d88fe883077-plugins.zip.tmp: 1400 files added (on-disk size: 0 KB)
+0001.231 (0) Zip: backup_2024-04-29-1724_localhost_kalanso_5d88fe883077-plugins.zip.tmp: 1500 files added (on-disk size: 0 KB)
+0001.249 (0) Zip: backup_2024-04-29-1724_localhost_kalanso_5d88fe883077-plugins.zip.tmp: 1600 files added (on-disk size: 0 KB)
+0001.271 (0) Zip: backup_2024-04-29-1724_localhost_kalanso_5d88fe883077-plugins.zip.tmp: 1700 files added (on-disk size: 0 KB)
+0001.289 (0) Zip: backup_2024-04-29-1724_localhost_kalanso_5d88fe883077-plugins.zip.tmp: 1800 files added (on-disk size: 0 KB)
+0001.306 (0) Zip: backup_2024-04-29-1724_localhost_kalanso_5d88fe883077-plugins.zip.tmp: 1900 files added (on-disk size: 0 KB)
+0001.325 (0) Zip: backup_2024-04-29-1724_localhost_kalanso_5d88fe883077-plugins.zip.tmp: 2000 files added (on-disk size: 0 KB)
+0001.345 (0) Zip: backup_2024-04-29-1724_localhost_kalanso_5d88fe883077-plugins.zip.tmp: 2100 files added (on-disk size: 0 KB)
+0001.362 (0) Zip: backup_2024-04-29-1724_localhost_kalanso_5d88fe883077-plugins.zip.tmp: 2200 files added (on-disk size: 0 KB)
+0001.377 (0) Zip: backup_2024-04-29-1724_localhost_kalanso_5d88fe883077-plugins.zip.tmp: 2300 files added (on-disk size: 0 KB)
+0001.393 (0) Zip: backup_2024-04-29-1724_localhost_kalanso_5d88fe883077-plugins.zip.tmp: 2400 files added (on-disk size: 0 KB)
+0001.411 (0) Zip: backup_2024-04-29-1724_localhost_kalanso_5d88fe883077-plugins.zip.tmp: 2500 files added (on-disk size: 0 KB)
+0001.425 (0) Zip: backup_2024-04-29-1724_localhost_kalanso_5d88fe883077-plugins.zip.tmp: 2600 files added (on-disk size: 0 KB)
+0001.440 (0) Zip: backup_2024-04-29-1724_localhost_kalanso_5d88fe883077-plugins.zip.tmp: 2700 files added (on-disk size: 0 KB)
+0001.458 (0) Zip: backup_2024-04-29-1724_localhost_kalanso_5d88fe883077-plugins.zip.tmp: 2800 files added (on-disk size: 0 KB)
+0001.477 (0) Zip: backup_2024-04-29-1724_localhost_kalanso_5d88fe883077-plugins.zip.tmp: 2900 files added (on-disk size: 0 KB)
+0001.494 (0) Zip: backup_2024-04-29-1724_localhost_kalanso_5d88fe883077-plugins.zip.tmp: 3000 files added (on-disk size: 0 KB)
+0001.508 (0) Zip: backup_2024-04-29-1724_localhost_kalanso_5d88fe883077-plugins.zip.tmp: 3100 files added (on-disk size: 0 KB)
+0001.522 (0) Zip: backup_2024-04-29-1724_localhost_kalanso_5d88fe883077-plugins.zip.tmp: 3200 files added (on-disk size: 0 KB)
+0001.539 (0) Zip: backup_2024-04-29-1724_localhost_kalanso_5d88fe883077-plugins.zip.tmp: 3300 files added (on-disk size: 0 KB)
+0001.552 (0) Zip: backup_2024-04-29-1724_localhost_kalanso_5d88fe883077-plugins.zip.tmp: 3400 files added (on-disk size: 0 KB)
+0001.568 (0) Zip: backup_2024-04-29-1724_localhost_kalanso_5d88fe883077-plugins.zip.tmp: 3500 files added (on-disk size: 0 KB)
+0001.582 (0) Zip: backup_2024-04-29-1724_localhost_kalanso_5d88fe883077-plugins.zip.tmp: 3600 files added (on-disk size: 0 KB)
+0001.599 (0) Zip: backup_2024-04-29-1724_localhost_kalanso_5d88fe883077-plugins.zip.tmp: 3700 files added (on-disk size: 0 KB)
+0001.615 (0) Zip: backup_2024-04-29-1724_localhost_kalanso_5d88fe883077-plugins.zip.tmp: 3800 files added (on-disk size: 0 KB)
+0001.629 (0) Zip: backup_2024-04-29-1724_localhost_kalanso_5d88fe883077-plugins.zip.tmp: 3900 files added (on-disk size: 0 KB)
+0001.643 (0) Zip: backup_2024-04-29-1724_localhost_kalanso_5d88fe883077-plugins.zip.tmp: 4000 files added (on-disk size: 0 KB)
+0001.656 (0) Zip: backup_2024-04-29-1724_localhost_kalanso_5d88fe883077-plugins.zip.tmp: 4100 files added (on-disk size: 0 KB)
+0001.671 (0) Zip: backup_2024-04-29-1724_localhost_kalanso_5d88fe883077-plugins.zip.tmp: 4200 files added (on-disk size: 0 KB)
+0001.687 (0) Zip: backup_2024-04-29-1724_localhost_kalanso_5d88fe883077-plugins.zip.tmp: 4300 files added (on-disk size: 0 KB)
+0001.702 (0) Zip: backup_2024-04-29-1724_localhost_kalanso_5d88fe883077-plugins.zip.tmp: 4400 files added (on-disk size: 0 KB)
+0001.716 (0) Zip: backup_2024-04-29-1724_localhost_kalanso_5d88fe883077-plugins.zip.tmp: 4500 files added (on-disk size: 0 KB)
+0001.734 (0) Zip: backup_2024-04-29-1724_localhost_kalanso_5d88fe883077-plugins.zip.tmp: 4600 files added (on-disk size: 0 KB)
+0001.751 (0) Zip: backup_2024-04-29-1724_localhost_kalanso_5d88fe883077-plugins.zip.tmp: 4700 files added (on-disk size: 0 KB)
+0001.766 (0) Zip: backup_2024-04-29-1724_localhost_kalanso_5d88fe883077-plugins.zip.tmp: 4800 files added (on-disk size: 0 KB)
+0001.785 (0) Zip: backup_2024-04-29-1724_localhost_kalanso_5d88fe883077-plugins.zip.tmp: 4900 files added (on-disk size: 0 KB)
+0001.803 (0) Zip: backup_2024-04-29-1724_localhost_kalanso_5d88fe883077-plugins.zip.tmp: 5000 files added (on-disk size: 0 KB)
+0001.820 (0) Zip: backup_2024-04-29-1724_localhost_kalanso_5d88fe883077-plugins.zip.tmp: 5100 files added (on-disk size: 0 KB)
+0001.839 (0) Zip: backup_2024-04-29-1724_localhost_kalanso_5d88fe883077-plugins.zip.tmp: 5200 files added (on-disk size: 0 KB)
+0001.858 (0) Zip: backup_2024-04-29-1724_localhost_kalanso_5d88fe883077-plugins.zip.tmp: 5300 files added (on-disk size: 0 KB)
+0001.876 (0) Zip: backup_2024-04-29-1724_localhost_kalanso_5d88fe883077-plugins.zip.tmp: 5400 files added (on-disk size: 0 KB)
+0001.896 (0) Zip: backup_2024-04-29-1724_localhost_kalanso_5d88fe883077-plugins.zip.tmp: 5500 files added (on-disk size: 0 KB)
+0092.377 (0) Creating zip file manifest (backup_2024-04-29-1724_localhost_kalanso_5d88fe883077-plugins.zip.list-temp.tmp)
+0092.393 (0) Successfully created zip file manifest (size: 446943)
+0092.645 (0) Created plugins zip (0) - 28837.6 KB in 92.6 s (311.6 KB/s) (sha1: 740bb4762ee8db2832c1f7c2432577dc489cbc9b, sha256: 699ca314d4aaf283c85a412aa050bb16b8fa27896e39856760100c7b2c4fcf3e)
+0092.648 (0) Deleting old temporary file: log.6874330d7879-browser.txt
+0092.659 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0092.662 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-5effd697a390d323f0e1bea19e6d0cad)
+0098.365 (0) Google Drive: quota usage: used=367.7 MB, total=15360 MB, available=14992.3 MB
+0098.367 (0) Google Drive: backup_2024-04-29-1724_localhost_kalanso_5d88fe883077-plugins.zip: Attempting to upload to Google Drive (into folder id: 1tDe4PMkZ9nbUdTQ_0AautpPVBDLLOZqm)
+0101.114 (0) Googledrive chunked upload: 3.6 % uploaded (1048576)
+0103.156 (0) Googledrive chunked upload: 7.1 % uploaded (2097152 - increasing chunk size to 2048 KB - memory usage: 70.5 / 82)
+0105.765 (0) Googledrive chunked upload: 14.2 % uploaded (4194304)
+0108.506 (0) Googledrive chunked upload: 21.3 % uploaded (6291456)
+0112.486 (0) Googledrive chunked upload: 28.4 % uploaded (8388608)
+0118.726 (0) Googledrive chunked upload: 35.5 % uploaded (10485760)
+0122.520 (0) Googledrive chunked upload: 42.6 % uploaded (12582912)
+0126.528 (0) Googledrive chunked upload: 49.7 % uploaded (14680064)
+0130.811 (0) Googledrive chunked upload: 56.8 % uploaded (16777216)
+0135.114 (0) Googledrive chunked upload: 63.9 % uploaded (18874368)
+0139.337 (0) Googledrive chunked upload: 71 % uploaded (20971520)
+0143.420 (0) Googledrive chunked upload: 78.1 % uploaded (23068672)
+0147.619 (0) Googledrive chunked upload: 85.2 % uploaded (25165824)
+0151.497 (0) User request for abort: backup job will be immediately halted
+0151.500 (0) Decremented the semaphore (fd) by 1
+0151.504 (0) Semaphore (fd) unlocked
+0151.508 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0151.514 (0) Fetching RSS news feed
+0152.390 (0) Fetched RSS news feed; result is a: SimplePie
+0152.403 (0) Sending email ('La sauvegarde a été annulée par l’utilisateur/utilisatrice') report (attachments: 0, size: 0 KB) to: abdou...
+0152.412 (0) An error occurred when sending a backup report email and/or backup file(s) via email (wp_mail_failed): Invalid address:  (From): wordpress@localhost
+0152.415 (0) La sauvegarde a été annulée par l’utilisateur/utilisatrice
